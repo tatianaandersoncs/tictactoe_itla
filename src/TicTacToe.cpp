@@ -25,5 +25,6 @@ void init() {
 			board[i][j] = '_'
 		}
 	}
-	char 
+	player = 'X';
+	plays = 0;
 }
