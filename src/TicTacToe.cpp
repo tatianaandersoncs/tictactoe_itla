@@ -18,3 +18,11 @@ void clearScreen()
 	system("clear");
 #endif
 }
+
+void init() {
+	for (int i = 0; i < 3;i++) {
+		for (int j = 0; i < 3;i++) {
+			board[i][j] = '_';
+		}
+	}
+}
