@@ -14,7 +14,7 @@ void init(); // user story 1
 bool validateInput(); // user story 2
 void clearScreen();
 void showBoard(); // user story 3
-bool isGameOver(); // user story 4
+bool isGameOver(int play, char board[], char playerm, char winner); // user story 4
 
 
 #endif /* TICTACTOE_H_ */
