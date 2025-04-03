@@ -7,6 +7,7 @@ char board[3][3]; //Possible values are X, O and _ (for blank positions)
 char player = 'X';
 int plays = 0;
 char winner;
+bool gameOver = false;
 
 
 void clearScreen()
@@ -17,4 +18,9 @@ void clearScreen()
 #else
 	system("clear");
 #endif
+}
+
+bool gameOver{
+	gameOver = true;
+	return true;
 }
