@@ -17,7 +17,4 @@ void showBoard(); // user story 3
 bool isGameOver(); // user story 4
 
 
-
-
-
 #endif /* TICTACTOE_H_ */

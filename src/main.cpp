@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
 	init();
-	showBoard();
 	//
-
+	cout << isGameOver() << endl;
+	// 
 	cout << "Hello to our branch.";
 	return 0;
 }
