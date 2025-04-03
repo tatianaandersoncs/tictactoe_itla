@@ -22,9 +22,7 @@ void clearScreen()
 void init() {
 	for (int i = 0; i < 3;i++) {
 		for (int j = 0; i < 3;i++) {
-			board[i][j] = '_'
+			board[i][j] = '_';
 		}
 	}
-	player = 'X';
-	plays = 0;
 }
