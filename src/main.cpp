@@ -6,5 +6,8 @@ int main()
 {
 	init();
 	showBoard();
+	//
+
+	cout << "Hello to our branch.";
 	return 0;
 }
