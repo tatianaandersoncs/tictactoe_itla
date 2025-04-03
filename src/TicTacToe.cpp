@@ -31,6 +31,7 @@ void init()
 
 void clearScreen()
 {
+	cout<< "Check\n";
 	#ifdef _WIN32
 	system("cls");
 	#else
