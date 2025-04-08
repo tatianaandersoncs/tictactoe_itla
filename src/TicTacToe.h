@@ -11,7 +11,7 @@
 #define TICTACTOE_H_
 
 void init(); // user story 1
-bool validateInput(); // user story 2
+bool validateInput(int,int); // user story 2
 void clearScreen();
 void showBoard(); // user story 3
 bool isGameOver(); // user story 4

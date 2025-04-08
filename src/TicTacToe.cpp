@@ -19,6 +19,7 @@ void clearScreen()
 #endif
 }
 
+
 bool ValidateInput(int row, int column)
 { 
 	if(row > 1 || row > 3 || column > 1 || column > 3 )
@@ -36,4 +37,5 @@ bool ValidateInput(int row, int column)
 	else return true;
  
 }
+
 
